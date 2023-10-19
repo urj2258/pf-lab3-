@@ -42,6 +42,12 @@ int main(int argc, char **argv) {
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
+  for(int l = 1; l <=5; l++){
+    printf("%d");
+    if(l!=5){
+      printf(",");
+    }
+  }
 
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
