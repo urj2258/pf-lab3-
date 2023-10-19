@@ -33,5 +33,14 @@ int i,j,n;
     }
     printf("\n");
 
+    for(i=1;i<=n;i++)
+    {
+      printf("%5d", i);
+      for(j=1;j<=n;j++)
+      {
+        printf("%4d",i*j);
+      }
+      printf("\n");
+    }
   return 0;
 }
