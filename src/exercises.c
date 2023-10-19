@@ -42,22 +42,33 @@ int main(int argc, char **argv) {
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
-  for(int l = 1; l <=5; l++){
-    printf("%d");
-    if(l!=5){
+  for(int l = 1; l <=n; l++){
+    printf("%d",l);
+    if(l!=n){
       printf(",");
     }
   }
 
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
-
+  for(int m = 1; m<=n; m++){
+    m*=m;
+    printf("%d",m);
+    if (m!=n){
+      printf(",");
+    }
+  }
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
+  for (int o = 1; o <= n; o++){
+    int p = 0;
+    p += o;
+    printf("%d",o);
+  }
 
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
-
+  
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
 
